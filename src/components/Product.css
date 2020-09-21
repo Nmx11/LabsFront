@@ -1,0 +1,45 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+}
+.productView{
+    background-size: cover;
+}
+.productCard{
+    width: 200px;
+    height: 300px;
+    margin: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+.iconleft img{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.iconright img{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 27px;
+    height: 25px;
+}
+.card{
+    margin: 15px;
+    color: black;
+    background-color: lightgrey;
+}
+
+
+
+
+
+

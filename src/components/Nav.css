@@ -1,0 +1,9 @@
+.navbar-brand{
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% { color: rgb(178, 194, 37); }
+    50% { color: rgb(179, 54, 96); }
+    100% { color: rgb(187, 17, 221); }
+}

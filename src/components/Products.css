@@ -1,0 +1,24 @@
+.productsBox{
+    margin-top: 100px;    
+}
+
+.paginas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    background-color: lightgrey;
+    color: black;
+}
+
+
+.btn-success {
+
+    margin-left: 10px;
+}
+
+.filtrar{
+    background-color: lightgrey;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
