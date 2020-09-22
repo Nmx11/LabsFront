@@ -54,7 +54,7 @@ function selectionSort(data) {
 
 export function getMenor() {
     return function(dispatch) {
-        return fetch(`http://localhost:3001/api/search/producto`)
+        return fetch(`https://nahuelmendez.herokuapp.com/api/search/producto`)
         .then(res => res.json())
         .then((data) => {
             if (data !== undefined) {              
@@ -93,7 +93,7 @@ function reversedSort(data) {
 
 export function getMayor() {
     return function(dispatch) {
-        return fetch(`http://localhost:3001/api/search/producto`)
+        return fetch(`https://nahuelmendez.herokuapp.com/api/search/producto`)
         .then(res => res.json())
         .then((data) => {
             if (data !== undefined) {               
@@ -107,7 +107,7 @@ export function getMayor() {
 
 export function getNew() {
     return function(dispatch) {
-        return fetch(`http://localhost:3001/api/search/producto`)
+        return fetch(`https://nahuelmendez.herokuapp.com/api/search/producto`)
         .then(res => res.json())
         .then((data) => {
             if (data !== undefined) {                
@@ -128,7 +128,7 @@ export function getNew() {
 
 export function getUsed() {
     return function(dispatch) {
-        return fetch(`http://localhost:3001/api/search/producto`)
+        return fetch(`https://nahuelmendez.herokuapp.com/api/search/producto`)
         .then(res => res.json())
         .then((data) => {
             if (data !== undefined) {                
@@ -155,7 +155,7 @@ var pageCache = [];
 
 export function previousPage() {
         return function(dispatch, getState) {
-            return fetch(`http://localhost:3001/api/search/producto`, )
+            return fetch(`https://nahuelmendez.herokuapp.com/api/search/producto`, )
             .then(res => res.json())
             .then((data) => {
                 if (data !== undefined) {
@@ -190,7 +190,7 @@ var pageCacheNext = [];
 
 export function nextPage() {
     return function(dispatch, getState) {
-        return fetch(`http://localhost:3001/api/search/producto`, )
+        return fetch(`https://nahuelmendez.herokuapp.com/api/search/producto`, )
         .then(res => res.json())
         .then((data) => {
             if (data !== undefined) {
